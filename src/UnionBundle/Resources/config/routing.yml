@@ -1,0 +1,4 @@
+union_homepage:
+    path:     /
+    defaults: { _controller: UnionBundle:Default:index }
+
