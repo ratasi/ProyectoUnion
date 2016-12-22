@@ -2,3 +2,11 @@ union_homepage:
     path:     /
     defaults: { _controller: UnionBundle:Default:index }
 
+contacto:
+    path:     /contacto
+    defaults: { _controller: UnionBundle:Default:contacto }
+
+futbol_convencional:
+    path:     /futbol_convencional
+    defaults: { _controller: UnionBundle:Default:convencional }
+

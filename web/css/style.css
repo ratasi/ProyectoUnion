@@ -321,7 +321,7 @@ a.block-1:hover{
 	line-height:1.8em;
 }
 .content_bottom{
-	margin:6em 0 8em;
+	margin:6em 0 6em;
 }
 .block-3 {
   position: relative;
@@ -383,7 +383,7 @@ a.block-1:hover{
     margin-bottom: 3em;
 }
 .footer_top{
-	background: url(../images/bg1.gif) no-repeat center top;
+	background: url(../images/bg1.gif) center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
