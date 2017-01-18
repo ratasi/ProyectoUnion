@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}AUC{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        <html>
+<head>
+<title>AUC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Trail Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+<!-- Link para footer, redes sociales -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!--font-Awesome -->
+
+<!--font-Awesome->
+</head>
+<body>
+  <div class="bottom-header">
+    <div class="container">
+       <div class="header_top-responsive">
+         <div class="logo_responsive"><a href="index.html"><img src="images/logo1.png" alt=""/> </a></div>
+       <div class="search_responsive">
+        <input type="text" value="Enter a keyword" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a keyword...';}">
+        <input type="submit" value="">
+      </div>
+       <div class="clearfix"></div>
+     </div>
+       <div class="h_menu4"><!- start h_menu4 -->
+        <a class="toggleMenu" href="#">Menu</a>
+        <ul class="nav">
+          <li><a href="services.html">Equipos</a>
+            <ul>
+              <li><a href="futbol_convencional">Futbol Convencional</a></li>
+              <li><a href="services.html">Futbol Adaptado</a></li>
+              <li><a href="services.html">Futbol en Silla de Ruedas</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">Actividades Extra</a></li>
+          <li class="logo"><a href="/"><img src="images/logo.png" alt=""/></a></li>
+          <li><a href="index.html">Quienes Somos</a></li>
+          <li><a href="contacto">Contacto</a></li>
+        </ul>
+        <script type="text/javascript" src="js/nav.js"></script>
+      </div><!-- end h_menu4 -->
+      <div class="clearfix"></div>
+      </div>
+    </div>
+      {% block body %}{% endblock %}
+    <div class="clearfix"> </div>
+
+</div>
+<div class="footer_bottom">
+  <div class="container">
+
+
+    <div class="copy">
+      <div class="caja-redes">
+         <a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+         <a href="#" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+         <a href="#" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+      </div>
+       <p>© 2017 Proyecto Unión | <a href="http:floridauniversitaria.es">Florida Universitaria</a> </p>
+    </div>
+  </div>
+</div>
+<link href="css/flexslider.css" rel='stylesheet' type='text/css' />
+                <script defer src="js/jquery.flexslider.js"></script>
+                <script type="text/javascript">
+                $(function(){
+                  SyntaxHighlighter.all();
+                });
+                $(window).load(function(){
+                  $('.flexslider').flexslider({
+                  animation: "slide",
+                  start: function(slider){
+                    $('body').removeClass('loading');
+                  }
+                  });
+                });
+                </script>
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+<title>{% block title %}Contacto{% endblock %}</title>
+<div class="wrap-box"></div>
+<div class="about">
+	<div class="content_top">
+	<div class="container">
+			<h1 class="contact_head">Nuestra localización</h1>
+		    <div class="map">
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2496.01204584165!2d-0.41317848728989676!3d39.40258339279103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfc355cedae3fbb4f!2sCampo+de+F%C3%BAtbol+FBCD+Catarroja!5e0!3m2!1ses!2ses!4v1482404137296"> </iframe>
+			</div>
+			<div class="contact">
+				<div class="col-md-4 contact_left">
+					<h2>Información</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum adipiscing vestibulum sapien, in ultricies tellus dignissim eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				    <p> Praesent mollis dolor eros, vel facilisis nisi auctor ut. Cras id convallis ipsum. Mauris posuere, ligula ac sodales sollicitudin, risus sapien iaculis libero, ac molestie orci arcu non ante. Fusce est leo, ornare ut porta quis, dictum et mi. Aliquam vel pretium sem</p>
+				</div>
+				<div class="col-md-8 contact_right">
+					<h2>Formulario de contacto</h2>
+					<form>
+									<div class="text">
+										<div class="text-fild">
+
+											<input type="text" class="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}">
+										</div>
+										<div class="text-fild">
+
+											<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+										</div>
+										<div class="text-fild">
+
+											<input type="text" class="text" value="Asunto" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Asunto';}">
+									</div>
+										<div class="clearfix"> </div>
+									</div>
+
+									<div class="message-fild">
+
+											<textarea value="Mensaje:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mensaje';}">Mensaje</textarea>
+									</div>
+									<input name="submit" type="submit" id="submit" value="Enviar">
+					</form>
+				</div>
+			</div>
+		 </div>
+		 </div>
+</div>
+{% endblock %}
